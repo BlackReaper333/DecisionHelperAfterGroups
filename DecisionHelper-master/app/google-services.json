@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "598581713334",
+    "firebase_url": "https://decisionhelper-c9c1d.firebaseio.com",
+    "project_id": "decisionhelper-c9c1d",
+    "storage_bucket": "decisionhelper-c9c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598581713334:android:545919bf7abcb02e",
+        "android_client_info": {
+          "package_name": "com.google.sdl.decisionhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598581713334-7ud5rea9cj8qkr2oicj8b29p63hhis1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARNWme-HV8COFEY25v8jOQiYnm6PyLBMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
