@@ -6,7 +6,6 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -19,53 +18,43 @@
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.Group"
-            android:label="@string/group_name">
+            android:name="com.google.sdl.decisionhelper.Group">
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.CreateQuestion"
-            android:label="Group1">
+            android:name="com.google.sdl.decisionhelper.CreateQuestion">
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.Question"
-            android:label="Group1">
+            android:name="com.google.sdl.decisionhelper.Question">
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.Chatting"
-            android:label="Question1">
+            android:name="com.google.sdl.decisionhelper.Chatting">
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.Settings"
-            android:label="Settings">
+            android:name="com.google.sdl.decisionhelper.Settings">
         </activity>
 
         <activity
-            android:name="com.google.sdl.decisionhelper.UserProfile"
-            android:label="Your Profile">
+            android:name="com.google.sdl.decisionhelper.UserProfile">
         </activity>
 
         <activity
-            android:name=".CreateGroup"
-            android:label="New Group">
+            android:name=".CreateGroup">
         </activity>
 
         <activity
-            android:name=".Register"
-            android:label="Registration">
+            android:name=".Register">
         </activity>
 
         <activity
-            android:name=".GroupProfile"
-            android:label="Group">
+            android:name=".GroupProfile">
         </activity>
 
         <activity
-            android:name="AddParticipants"
-            android:label="Search">
+            android:name="AddParticipants">
         </activity>
 
     </application>

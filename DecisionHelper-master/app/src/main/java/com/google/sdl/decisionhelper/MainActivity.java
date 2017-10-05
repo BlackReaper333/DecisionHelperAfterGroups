@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent_group = new Intent(MainActivity.this, Group.class);
-                intent_group.putExtra("Group_id", mlistView.getItemAtPosition(position).toString());  //he send karta sadhya tari name send kelay group cha
+                intent_group.putExtra("GroupName", mlistView.getItemAtPosition(position).toString());  //he send karta sadhya tari name send kelay group cha
                 startActivity(intent_group);
             }
         });
@@ -175,6 +175,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //other variable definations
         toolbar = (Toolbar) findViewById(com.google.sdl.decisionhelper.R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Decision Helper");
 //        searchView = (MaterialSearchView) findViewById(com.google.sdl.decisionhelper.R.id.search_view);
         group =(RelativeLayout)findViewById(com.google.sdl.decisionhelper.R.id.group1);
 

@@ -35,11 +35,16 @@ public class Group extends AppCompatActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(com.google.sdl.decisionhelper.R.layout.group);
 
+        Bundle bundle = getIntent().getExtras();
 
 
         //defining basic variables
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        if(bundle!= null)
+        {
+            getSupportActionBar().setTitle(bundle.getString("GroupName"));
+        }
 
         question1=(RelativeLayout) findViewById(R.id.question1);
         question1.setOnClickListener(this);
